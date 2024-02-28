@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9478cf4-cd4f-41d3-8d1f-6a739601e4cb">
+  <producedTypes>
+    <selectionType typeId="451f560d-fa3d-4e59-981f-e8300ace0be1" valueTypeId="4ba5cad0-13d9-4102-bae1-8bb196aeb9b9"/>
+    <listType typeId="e504d024-28c2-4ec8-9c81-641988d3f4ca" valueTypeId="162ffd12-813e-4f67-bd9c-674821d41b02"/>
+    <managerType typeId="1828d0a7-d62d-4bd5-9db2-4c0854cd0eb9" valueTypeId="b8498a01-fb7b-486c-9934-116ae1c3f4c2"/>
+    <recordSetType typeId="7a031e9a-fb9c-41cb-aace-c7d771aa1ca6" valueTypeId="20e05b68-a710-4402-a1e3-413dabec5362"/>
+    <recordKeyType typeId="e4a56167-a7c2-4235-a11d-2fc303849f1c" valueTypeId="b5c9cdbf-1d1b-4fc3-b74c-04770367c6cb"/>
+    <recordType typeId="46d927ac-385b-400b-9814-31a0ed9cb0c6" valueTypeId="1f90cb15-1523-4c07-abb6-bc2cffc8284b"/>
+  </producedTypes>
+  <name>RemainingProducts</name>
+  <synonym>
+    <key>en</key>
+    <value>Remaining products</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="5f48971d-2edc-4cc6-94f1-481c4478c5d8">
+    <name>Quantity</name>
+    <synonym>
+      <key>en</key>
+      <value>Quantity</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="9906df31-fda1-4e72-9aac-fb48b62fe160">
+    <name>Price</name>
+    <synonym>
+      <key>en</key>
+      <value>Price</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="5f5581df-2182-4cd8-b762-6545dc7072f9">
+    <name>Nomenclature</name>
+    <synonym>
+      <key>en</key>
+      <value>Nomenclature</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Nomenclature</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3674bdba-cc4a-4a53-acb1-c928ef44005d">
+    <name>Storage</name>
+    <synonym>
+      <key>en</key>
+      <value>Storage</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Storage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
