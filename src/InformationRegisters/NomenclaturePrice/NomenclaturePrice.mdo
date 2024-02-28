@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3829c9d-759e-4f99-a0b3-99e175f91bf5">
+  <producedTypes>
+    <selectionType typeId="3d9f6086-30ad-40e0-a794-00b3d499f666" valueTypeId="1094da57-5b47-4c29-a937-65eba6bedcbe"/>
+    <listType typeId="bd91a10f-da3d-4291-ac44-640477d207be" valueTypeId="eedb43e9-997a-4043-91be-e81de43cf285"/>
+    <managerType typeId="59663436-a15a-49db-a0d5-fd1488780574" valueTypeId="0b0907c2-fcbc-4c5b-82d8-9b9b7a254a5e"/>
+    <recordSetType typeId="bd5066e5-6727-47bf-887f-ce291f5cf202" valueTypeId="17e69925-b186-43fd-bff1-bb2e67ce381e"/>
+    <recordKeyType typeId="93f14f6e-5ca0-4075-9b83-db9d31eb1e6b" valueTypeId="410ce388-14ba-407d-bf8f-400c0b624959"/>
+    <recordType typeId="62d80ee7-1aaa-41a7-9a8c-c3b148ac4c81" valueTypeId="9d76ac2a-3b8b-4741-bc9f-2a2797d1a2b1"/>
+    <recordManagerType typeId="47549f65-1f00-4dba-ae35-0423773117cb" valueTypeId="21e4b01a-179d-4005-93bb-23839cbeea95"/>
+  </producedTypes>
+  <name>NomenclaturePrice</name>
+  <synonym>
+    <key>en</key>
+    <value>Nomenclature price</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="78d3f0a9-f013-469d-8ddb-8b61e13cd7e1">
+    <name>Price</name>
+    <synonym>
+      <key>en</key>
+      <value>Price</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b8c455e3-cfd0-4c54-ba65-cb12113c9563">
+    <name>Nomenclature</name>
+    <synonym>
+      <key>en</key>
+      <value>Nomenclature</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Nomenclature</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
