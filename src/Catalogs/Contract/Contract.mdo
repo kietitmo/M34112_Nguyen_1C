@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f2b1835-0905-442a-a829-4b55095c1a60">
+  <producedTypes>
+    <objectType typeId="80c9ad50-99ff-4844-8a2c-2e7568e06465" valueTypeId="da9a8b5a-5c90-4337-836c-ee4ab6989dea"/>
+    <refType typeId="ecb9ffb2-24fb-4e05-8e9e-c51b9a42bf14" valueTypeId="7aa94173-8302-4b30-90ad-e4df6d88bc5d"/>
+    <selectionType typeId="ba82b5dd-a90f-47f1-b9fc-8ef452c5e02f" valueTypeId="0a4ad036-fe3b-42d2-9d32-e698952a2ea6"/>
+    <listType typeId="b145632c-d576-48bc-b52f-ec0aa931fe20" valueTypeId="8a79bd3f-925d-4737-b990-918487530f2c"/>
+    <managerType typeId="b47c4878-bae0-404a-b1e0-f0997d5a81c8" valueTypeId="c8e677fd-243e-4cce-8517-49957e1db46d"/>
+  </producedTypes>
+  <name>Contract</name>
+  <synonym>
+    <key>en</key>
+    <value>Contract</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Contract.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Contract.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Partner</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="665437ad-ba9a-4046-9dab-027e45782982">
+    <name>Currency</name>
+    <synonym>
+      <key>en</key>
+      <value>Currency</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Currency</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

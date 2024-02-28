@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ba5b2a9-dc06-420d-8f86-d8c82e4d354c">
+  <name>Catalogs</name>
+  <synonym>
+    <key>en</key>
+    <value>Catalogs</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Catalog</picture>
+  </picture>
+  <content>Catalog.Currency</content>
+  <content>Catalog.Nomenclature</content>
+  <content>Catalog.Unit</content>
+  <content>Catalog.Contract</content>
+  <content>Catalog.Partner</content>
+</mdclass:Subsystem>

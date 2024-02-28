@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7afc423d-3b25-4ca4-8f50-7bbf86cc29cb">
+  <producedTypes>
+    <objectType typeId="33952ce6-cb3e-4df2-b421-5c033ea2dd86" valueTypeId="6ededc00-5b2e-4883-9efc-e3d00b11e1d2"/>
+    <refType typeId="b4027bfb-e711-4201-a5f1-cb020614e1c5" valueTypeId="3cd861a2-6bab-4a33-99c5-377e04cd3e35"/>
+    <selectionType typeId="7a4b85ca-5fa6-4219-9ef0-8bce71497c34" valueTypeId="59fbe6bd-ad10-4c16-8896-bb6d4c6e60de"/>
+    <listType typeId="7dfe77e0-b54d-49c4-b780-bb7d9fa9e893" valueTypeId="4dd66dee-843d-44ba-96df-8bbdad56d716"/>
+    <managerType typeId="2572f801-ad42-46ac-bbe1-2a5c228ca57f" valueTypeId="a73357a2-0a2b-4c40-9fdf-d7e32bd62970"/>
+  </producedTypes>
+  <name>Currency</name>
+  <synonym>
+    <key>en</key>
+    <value>Currency</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Currency.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Currency.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="69a9932c-0b70-416e-bf36-ad7f9a0cd23f">
+    <name>CurrencyName</name>
+    <synonym>
+      <key>en</key>
+      <value>Currency name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="751d1d7a-af8e-43b1-9922-96373d91d7f7">
+    <name>InternationalCode</name>
+    <synonym>
+      <key>en</key>
+      <value>International code</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
