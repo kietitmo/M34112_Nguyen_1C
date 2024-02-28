@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b36eb974-04fd-4021-b7d1-d14f073eb6bf">
+  <producedTypes>
+    <refType typeId="3dedede5-deb4-4087-9ac8-10679acd06db" valueTypeId="0011e662-a53e-46c1-9bec-20f8ee8a0ee3"/>
+    <listType typeId="cf86d770-94d4-4273-a1f0-0a7b106db454" valueTypeId="c8424967-2719-4239-b387-61460c9d5a37"/>
+    <managerType typeId="ef74b7a7-6a04-48a8-9993-2cc438ecfdb0" valueTypeId="5a2f2ac7-e020-408f-86c3-3f42d395b0f2"/>
+  </producedTypes>
+  <name>Storage</name>
+  <synonym>
+    <key>en</key>
+    <value>Storage</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="10046107-848c-4cb3-8019-756dc8999149">
+    <name>Storage_1</name>
+    <synonym>
+      <key>en</key>
+      <value>Storage 1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf24e59d-8abb-4504-b1b2-fdcbe227f894">
+    <name>Storage_2</name>
+    <synonym>
+      <key>en</key>
+      <value>Storage 2</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
