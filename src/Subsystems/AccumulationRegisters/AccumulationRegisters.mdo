@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b70d6a13-116b-4477-be5e-6212022f78b9">
+  <name>AccumulationRegisters</name>
+  <synonym>
+    <key>en</key>
+    <value>Accumulation registers</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.AccumulationRegister</picture>
+  </picture>
+  <content>AccumulationRegister.RemainingProducts</content>
+</mdclass:Subsystem>
